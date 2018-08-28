@@ -1,0 +1,23 @@
+{
+  "name": "mizukimusic",
+  "version": "0.0.1",
+  "main": "mizukimusic.js",
+  "description": "MIZUKI BOT MUSIC PART.",
+  "scripts": {
+    "start": "node mizukimusic.js"
+  },
+  "dependencies": {
+    "simple-youtube-api": "^5.0.2",
+    "discord.js": "^11.3.2",
+    "opusscript": "^0.0.6",
+    "superagent": "^3.8.3",
+    "ytdl-core": "^0.20.2",
+    "ffmpeg-binaries": "3.2.2-3",
+    "moment": "^2.22.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {},
+  "license": "MIT"
+}
