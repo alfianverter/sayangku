@@ -5,7 +5,7 @@ const ytdl = require("ytdl-core");
 const opus = require("opusscript");
 const moment = require("moment");
  
-const prefix = 'm!';
+const prefix = '~';
 var commandcooldown = new Set();
 var queue = new Map();
  
@@ -24,7 +24,7 @@ bot.on('message', async msg => { // eslint-disable-line
  
     if (message.channel.type === 'dm') return;
  
-    var DEFAULTPREFIX = 'm!'
+    var DEFAULTPREFIX = '~'
  
     var {body} = await superagent
         .get("http://mizuki.glitch.me/prefixes.json")
